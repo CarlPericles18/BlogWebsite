@@ -1,23 +1,4 @@
 
-
-
-
-
-function homepage(){
-    window.location.href='/index.html'
-}
-
-
-
-
-
-
-
-
-
-
-
-
 const mobilePov = document.querySelector('.mobileMenu');
 const navMenu = document.querySelector('.ulList')
 const articleTitle = document.querySelector('.articleTitle');
@@ -31,11 +12,9 @@ const mainLogo = document.querySelector(".mainLogo")
 
 
 
-
-
-
-
-
+function homepage(){
+    window.location.href='/index.html'
+}
 
 
 
@@ -62,8 +41,8 @@ function showInfo(data){
 // ARTICLES PUSH
 
 
-window.addEventListener('load',()=>{
-})
+// window.addEventListener('load',()=>{
+// })
 
 
 
