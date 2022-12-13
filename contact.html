@@ -70,22 +70,22 @@
      <h4 class="email-Link"><a href="mailto:webdev.learnersuni@gmail.com" target="_blank">webdev.learnersuni@gmail.com</a></h4>
 
         <div class="contactInformation">
-            <form class="form"   action="https://formsubmit.co/webdev.learnersuni@gmail.com"method="POST">
-                <input class="contactBox box1" type="text" placeholder="Name" name="name">
-                <input class="contactBox box2" type="email" placeholder="Email" name="email">
-                <input class="contactBox box3" type="text" placeholder="Subject" name="subject">
+           
+            <form class="form" action="https://formsubmit.co/webdev.learnersuni@gmail.com" method="POST">
+                <input class="contactBox box1" type="text" placeholder="Name" name="name" required>
+                <input class="contactBox box2" type="email" placeholder="Email" name="email" required>
+                <input class="contactBox box3" type="text" placeholder="Subject" name="subject" required>
                 <h3>Message</h3>
-                <textarea  class ='box4 message'  rows="10" cols="40" type="text" name="message"></textarea>
-                <div class="invalidMain">Please Fill out all the information above</div>
-                <div class="invalidMainTwo">Invalid Email Address</div>
-                <input type="hidden" name="_next" value="https://thegrowthenhancement.com/thankYou.html" target="_blank">
+                <textarea  class ='box4 message'  rows="10" cols="40" type="text" name="message" required></textarea>
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="https://thegrowthenhancement.com/thankYou.html">
                 <div class="bttn">
                 <button class="sub" type="submit">SUBMIT</button>
+                </div>
             </form>
-            </div>
-            
+                
  
-    </div>
+        </div>
 
     </main>
 

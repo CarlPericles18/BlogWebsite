@@ -9,16 +9,6 @@ body{
 }
 
 
-:root {
-    --font-family:'Kumbh Sans', sans-serif;
-    --font-familyTwo:'Overpass', sans-serif;
-}
-
-body{
-    padding: 0%;
-    margin: 0%;
-}
-
 /* NAVIGATION BAR */
 
 .mainLogo{
@@ -26,13 +16,12 @@ body{
     width: 80%;
     height: auto;
     cursor: pointer;
+
 }
 
 .main{
     font-family: var(--font-familyTwo);
     text-align: center;
-    margin-top: 200px;
-
 }
 .main h1{
     color: rgb(56, 59, 66) ;
@@ -48,7 +37,7 @@ body{
 @media only screen and (min-width: 600px) {
     .mainLogo{
         width: 40%;
-        margin: 10px 100% 0 30px;
+        margin: 10px 0 0 30px;
      }
      .main{
         font-family: var(--font-familyTwo);

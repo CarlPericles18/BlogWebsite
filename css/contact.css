@@ -282,20 +282,7 @@ textarea {
     font-family: var(--font-family);
 
  }
-/* FORM ERROR CSS */
 
-.invalidMain{
-    color: red;
-    text-align: center;
-    display: none;
-}
-
-.invalidMainTwo{
-    color: red;
-    text-align: center;
-    display: none;
-
-}
 /* FORM SUBMIT BTN */
 .bttn{
     text-align: center;
