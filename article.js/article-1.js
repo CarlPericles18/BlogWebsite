@@ -32,7 +32,7 @@ const articleText6 = document.querySelector('.article-Text6');
 })
 
 
-fetch('/index.JSON')
+fetch('/index.json')
 .then(response => response.json())
 .then(data => showInfo(data));
 
