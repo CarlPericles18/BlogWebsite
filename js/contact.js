@@ -26,14 +26,6 @@ function homepage(){
 })
 
 
-fetch('./index.json')
-.then(response => response.json())
-.then(data => showInfo(data));
-
-function showInfo(data){
-    console.log(data[0].title)
-}
-
 
 
 

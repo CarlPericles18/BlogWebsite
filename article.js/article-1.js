@@ -32,9 +32,7 @@ const articleText6 = document.querySelector('.article-Text6');
 })
 
 
-fetch('https://thegrowthenhancement.com/index.json',{
- 
-})
+fetch('/index.json')
 .then(response => response.json())
 .then(data => showInfo(data));
 
