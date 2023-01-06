@@ -32,9 +32,13 @@ const articleText6 = document.querySelector('.article-Text6');
 })
 
 
-fetch('./index.json')
+fetch('/index.json')
 .then(response => response.json())
-.then(data => showInfo(data));
+.then(data => showInfo(data))
+.catch((err)=>{
+    subT1.append('Error!! FAILED TO LOAD CONTENT')
+    subT1.style.color ='red'
+})
 
 function showInfo(data){
     articleTitle.append(data[0].title)
